@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>airtame</id>
+    <version>3.2.2</version>
+    <packageSourceUrl>https://github.com/itigoag/airtame</packageSourceUrl>
+    <owners>ITIGO AG, sbaerlocher</owners>
+    <title>airtame</title>
+    <authors>Airtame</authors>
+    <projectUrl>https://airtame.com/it-deployment-business</projectUrl>
+    <iconUrl>https://cdn6.aptoide.com/imgs/d/3/8/d382ac1469d4b0de5246b66958797a1c_icon.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- If there is a license Url available, it is required for the community feed -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <tags>airtame</tags>
+    <summary>Airtame is a wireless device that plugs into the HDMI port of any screen or projector and streams your content to the screen from a computer or mobile device.</summary>
+    <description>
+    # Airtame
+
+    </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
