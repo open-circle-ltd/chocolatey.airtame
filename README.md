@@ -1,41 +1,32 @@
-# Chocolatey: Airtame
+# Chocolatey Package: Airtame
 
 ## Description
 
-Installs and configures the [Airtame](https://airtame.com/) software.
+[Airtame](https://airtame.com/) is a wireless device that plugs into the HDMI port of any screen or projector and streams your content to the screen from a computer or mobile device.
 
 ## Package Parameters
 
-| Parameter            | Default     | Comments                                   |
-| :---                 | :---        | :---                                       |
-| /AUTOSTART | false | Disables the Airtame in the Autostart. |
+* `/Autostart` `false` Disables the Airtame in the Autostart.
+* `/RemoveDesktopIcons` Removes the desktop icon from Airtame.
+* `/CleanStartmenu` Removes frequently used airtame shortcuts from the Startmenu.
 
 ## Installation
-
-The package is created as follows.
-
-```ps1
-choco pack airtame.nuspec --outputdirectory build
-```
 
 installation without parameters.
 
 ```ps1
- choco install airtame -s="<path to folder>\build"
+ choco install airtame
 ```
 
 installation with parameters.
 
 ```ps1
- choco install airtame --params="'/AUTOSTART:true'" -s="<path to folder>\build"
+ choco install airtame --params="'/Autostart:false /RemoveDesktopIcons /CleanStartmenu'"
 ```
 
-## Changelog
+## Disclaimer
 
-### 3.2.2
-
-* inital commit
-* add new version from Airtame
+These Chocolatey Packages only contain installation routines. The software itself is downloaded from the official sources of the software developer. ITIGO AG has no affilation with the software developer.
 
 ## Author
 
@@ -44,9 +35,8 @@ installation with parameters.
 
 ## License
 
-This project is under the MIT License. See the [LICENSE](https://sbaerlo.ch/licence) file for the full license text.
+This project is under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
 
 ## Copyright
 
-(c) 2018, Simon Bärlocher
 (c) 2018, ITIGO AG
