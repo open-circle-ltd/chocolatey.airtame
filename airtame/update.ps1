@@ -16,7 +16,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $url -UseBasicParsing -DisableKeepAlive
 
-    $reLatestbuild = '(.*">App v.*)'
+    $reLatestbuild = '(.*App[ |:]? v.*)'
     $download_page.RawContent -imatch $reLatestbuild
     $latestbuild = $Matches[0]
 
