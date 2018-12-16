@@ -1,11 +1,11 @@
-﻿# airtame install
+# airtame install
 
 $ErrorActionPreference = 'Stop';
 
 $toolsDir            = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $PackageParameters   = Get-PackageParameters
-$urlPackage          = 'https://downloads-cdn.airtame.com/application/ga/win_x86/releases/airtame-application-3.3.1-setup.msi'
-$checksumPackage     = '5ca379353e97a24dc527ec20e405f2f1ba14480539334fbd686a2ccde6bacd1252f2ff10dcff5b3eb14271b83942d0c571aa1c2681c1669c1f57c6b58a8a9a7e'
+$urlPackage          = 'https://downloads-cdn.airtame.com/application/ga/win_x86/releases/airtame-application-3.3.2-setup.msi'
+$checksumPackage     = '0fd35fda8d0033d06d069849324b2ce61af7892b063c4a5f72bce20ff0cfd1f61aac0b15efb705feb88e430f4f30e2e34305d0ea705a1b86c8655fcbc3698a07'
 $checksumTypePackage = 'SHA512'
 
 Import-Module -Name "$($toolsDir)\helpers.ps1"
