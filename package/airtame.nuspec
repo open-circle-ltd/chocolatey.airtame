@@ -9,7 +9,7 @@
     <title>Airtame</title>
     <authors>Airtame</authors>
     <projectUrl>https://airtame.com/it-deployment-business</projectUrl>
-    <iconUrl>https://rawgit.com/itigoag/chocolatey.airtame/master/icon/airtame.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.airtame@master/icon/airtame.png</iconUrl>
     <docsUrl>https://help.airtame.com/install-and-setup/quick-start-guide-setup-instructions</docsUrl>
     <tags>airtame plugs device</tags>
     <summary>Airtame is a wireless device that plugs into the HDMI port of any screen or projector and streams your content to the screen from a computer or mobile device.</summary>
@@ -18,13 +18,12 @@
 
 ## Package Parameters
 
-* `/Autostart` `false` Disables the Airtame in the Autostart.
-* `/RemoveDesktopIcons` Removes the desktop icon from Airtame.
-* `/CleanStartmenu` Removes frequently used airtame shortcuts from the Startmenu.
+- `/Autostart` `false` Disables Airtame in the Autostart.
+- `/RemoveDesktopIcons` Removes the desktop icon from Airtame.
+- `/CleanStartmenu` Removes frequently used airtame shortcuts from the Startmenu.
 ]]></description>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
-    <file src="**" exclude="**\README.md;**\update.ps1" />
+    <file src="tools/**" target="tools" />
   </files>
 </package>

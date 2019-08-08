@@ -1,8 +1,8 @@
-﻿# Airtame uninstall
+﻿# airtame uninstall
 
 $ErrorActionPreference = 'Stop';
 
-$toolsDir            = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
 Import-Module -Name "$($toolsDir)\helpers.ps1"
 
