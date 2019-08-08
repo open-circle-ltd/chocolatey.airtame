@@ -28,7 +28,7 @@ installation with parameters.
  choco install airtame --params="'/Autostart:false /RemoveDesktopIcons /CleanStartmenu'"
 ```
 
-[### ITIGO Packages](https://github.com/itigoag/ansible.packages)
+### [ITIGO Packages](https://github.com/itigoag/ansible.packages)
 
 installation without parameters.
 
