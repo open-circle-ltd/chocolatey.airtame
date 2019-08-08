@@ -18,7 +18,7 @@
 
 ## Package Parameters
 
-- `/Autostart` `false` Disables the Airtame in the Autostart.
+- `/Autostart` `false` Disables Airtame in the Autostart.
 - `/RemoveDesktopIcons` Removes the desktop icon from Airtame.
 - `/CleanStartmenu` Removes frequently used airtame shortcuts from the Startmenu.
 ]]></description>
