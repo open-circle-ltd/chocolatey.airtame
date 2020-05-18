@@ -7,7 +7,7 @@
     <owners>ITIGO AG, sbaerlocher</owners>
     <title>Airtame</title>
     <authors>Airtame</authors>
-    <projectUrl>https://airtame.com/it-deployment-business</projectUrl>
+    <projectUrl>https://airtame.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.airtame@master/icon/airtame.png</iconUrl>
     <docsUrl>https://help.airtame.com/install-and-setup/quick-start-guide-setup-instructions</docsUrl>
     <tags>airtame plugs device</tags>
