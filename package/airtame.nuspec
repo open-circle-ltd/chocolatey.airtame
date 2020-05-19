@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>airtame</id>
-    <version>4.0.1</version>
+    <version>4.0.0</version>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.airtame</packageSourceUrl>
     <owners>ITIGO AG, sbaerlocher</owners>
     <title>Airtame</title>
