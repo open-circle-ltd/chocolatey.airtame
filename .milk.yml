@@ -17,13 +17,13 @@ url: 'https://downloads-cdn.airtame.com/app/latest/win/Airtame-{{ version }}-set
 searchreplace:
   'tools/chocolateyinstall.ps1':
     - regwxp: (^\s*[$]*urlPackage\s*=\s*)('.*')
-      replace: '$urlPackage = "{{ url }}"'
+      replace: "$urlPackage = '{{ url }}'"
     - regwxp: (^\s*[$]*urlPackage64\s*=\s*)('.*')
-      replace: '$urlPackage64 = "{{ url64 | default()}}"'
+      replace: "$urlPackage64 = '{{ url64 | default()}}'"
     - regwxp: (^\s*[$]*checksumPackage\s*=\s*)('.*')
-      replace: '$checksumPackage = "{{ file_hash }}"'
+      replace: "$checksumPackage = '{{ file_hash }}'"
     - regwxp: (^\s*[$]*checksumPackage64\s*=\s*)('.*')
-      replace: '$checksumPackage64 = "{{ file64_hash  | default() }}"'
+      replace: "$checksumPackage64 = '{{ file64_hash  | default() }}'"
 
 # readme to description
 readme:
