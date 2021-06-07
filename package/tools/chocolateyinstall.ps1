@@ -4,8 +4,8 @@ $ErrorActionPreference = 'Stop';
 
 $toolsDir            = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $PackageParameters   = Get-PackageParameters
-$urlPackage = "https://downloads-cdn.airtame.com/app/latest/win/Airtame-4.1.1-setup.msi"
-$checksumPackage = "4851c352fac01959a7622e6fa3e70b3f6fb280840a15fca1f40205591c50a0d3714dbf8b514d05e26ce304f81688ce9419da9c23d8d95ea5416afd7af1b943f8"
+$urlPackage = "https://downloads-cdn.airtame.com/app/latest/win/Airtame-4.2.0-setup.msi"
+$checksumPackage = "e5923b42ad695c0194423103a3d8bd1f8081ed97a00e960fa0b75acb517f8b9fd353d445eed512b1af49c1c6c60c74a0980d30718ad6bc6f9825561525463a97"
 $checksumTypePackage = 'SHA512'
 
 Import-Module -Name "$($toolsDir)\helpers.ps1"
