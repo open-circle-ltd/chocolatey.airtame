@@ -2,16 +2,14 @@
 # chocomilk vars
 
 # Package Changelog
-changelog: 'https://help.airtame.com/general/product-changes'
+changelog: 'https://release-monitoring.org/api/v2/versions/?project_id=378277'
+changelog_format: json
 
-# Regex for Version
-version: "{{ register_changelog.content |
-  regex_search('App[ |:]? v?\\d.\\d.\\d\\b') |
-  regex_search('\\d.\\d.\\d\\b')
-  }}"
+# Get Version
+version: "{{ register_changelog.json['stable_versions'][0] }}"
 
 # Download URL
-url: 'https://downloads-cdn.airtame.com/app/latest/win/Airtame-{{ version }}-setup.msi'
+url: 'https://airtame-app.b-cdn.net/app/latest/win/Airtame-{{ version }}-setup.msi'
 # url64:
 
 searchreplace:
