@@ -3,13 +3,14 @@
   <metadata>
     <id>airtame</id>
     <version>4.12.0</version>
-    <packageSourceUrl>https://github.com/itigoag/chocolatey.airtame</packageSourceUrl>
     <owners>Open Circle AG, sbaerlocher</owners>
     <title>Airtame</title>
     <authors>Airtame</authors>
     <projectUrl>https://airtame.com/</projectUrl>
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.airtame</packageSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.airtame@master/icon/airtame.png</iconUrl>
     <docsUrl>https://help.airtame.com/install-and-setup/quick-start-guide-setup-instructions</docsUrl>
+    <releaseNotes>https://changelog.airtame.com/en?category=airtame+app</releaseNotes>
     <tags>airtame plugs device</tags>
     <summary>Airtame is a wireless device that plugs into the HDMI port of any screen or projector and streams your content to the screen from a computer or mobile device.</summary>
     <description><![CDATA[
